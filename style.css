@@ -1,0 +1,70 @@
+/* General Reset */
+body, h1, label, button, input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(to right, #4d83ed, #0652eb);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+/* Form Container */
+form {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Input Field */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    background: #0652eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+button[type="submit"]:hover {
+    background: #0652eb;
+}
+
+/* Weather Info Display */
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 15px;
+}
